@@ -57,3 +57,8 @@ Syntax used:
 ### Usage
 Change https://yoursite.com/server.txt to your command and control server.
 <br> You may want to obfuscate this or add custom commands.
+### Donate
+ - BTC: `bc1qp9y98996l9dkdqcnge449x40dfh7stneklq2js`
+ - XMR: `87Jr3LTEH4D7ubaxJNsrKTQPzfitSPH4cgp254Yb3cyGHLdrP6fpaNjCjdph2cn8Sh9qjgxe9UMjoCrTDbnbqJUtJXK9bb4`
+ - TRX: `TYgkFXn3Yb3egs8cw7GwZubaAR2cuXR4y8`
+ - ETH: `0xc42AAfeC6B9A993Bdf832a76098C60A8C9c386d4`
